@@ -1,0 +1,9 @@
+Bash script which specifies middle commit between two branches. Very early version.
+
+For example:
+middle_commit.sh crash_1_fail crash_4_pass
+
+will print:
+commit 623e22e9a010d7736aff838662034574970421d4
+
+It can be usefull in the case of looking up some bug (by binary search) which wasn't detected earlier.
